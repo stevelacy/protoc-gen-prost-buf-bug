@@ -1,0 +1,7 @@
+version: v1
+plugins:
+  - name: prost-crate
+    out: bufgen
+    path: ./target/debug/protoc-gen-prost-crate
+    opt:
+      - gen_crate=bufgen/Cargo.toml
